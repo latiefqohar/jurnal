@@ -26,7 +26,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $root=(($_SERVER['HTTP_HOST'] == 'api.bankbanten.co.id') ? "https://" : "http://").$_SERVER['HTTP_HOST'];
 // $root.= str_replace(basename($_SERVER['SCRIPT_NAME']), '', $_SERVER['SCRIPT_NAME']);
 // $config['base_url'] = $root;
-$config['base_url'] = 'http://localhost/jurnal/';
+$config['base_url'] = 'http://ec2-52-71-82-249.compute-1.amazonaws.com/jurnal/';
 
 /*
 |--------------------------------------------------------------------------
